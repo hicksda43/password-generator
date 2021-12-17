@@ -9,6 +9,7 @@ output.innerHTML = slider.value;
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
